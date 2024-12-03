@@ -14,15 +14,11 @@ def find_cameras():
 
 cameras = find_cameras()
 if cameras:
-    print(f"Dostępne kamery: {cameras}")
     last_camera_index = cameras[-1]
-    print(f"Łączenie z ostatnią wykrytą kamerą (indeks: {last_camera_index})")
     camera = cv2.VideoCapture(last_camera_index)
     if not camera.isOpened():
-        print("Nie można otworzyć kamery")
         exit()
 else:
-    print("Nie znaleziono żadnych kamer")
     exit()
 
 
@@ -30,7 +26,6 @@ def generate_frames():
     while True:
         success, frame = camera.read()
         if not success:
-            print("Nie można odczytać obrazu z kamery, zatrzymywanie strumienia...")
             break
         else:
             _, buffer = cv2.imencode('.jpg', frame)
