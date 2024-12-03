@@ -1,11 +1,10 @@
-====================================================================================================================================
 This is Web Cam Sending Script. 
 It works by sending data to cloud on specified host.
-====================================================================================================================================
+=
 Code is running quite smoothly and with no issues (as for me). Keep in mind that it's an early development tool.
 I checked, and code was working with 4 difrent web-cams and I have no trouble with sending data to the cloud.
 I hope code is also working for you.
-====================================================================================================================================
+=
 
 Code sends view from camera to internet website with ip and host, in the code the host is 4545 but you can change it however you want.
 To activate the code you need everything explained in "required" file.
