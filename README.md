@@ -1,6 +1,7 @@
-This code works on most all cameras (i hope so), i tested 4 difrent one and i have no trouble with sending data to cloud.
-Code sends present view of conected camera on internet host, in the code it is 4243 but you can change it however you want.
-To activate the code you need all things meansioned in "required", working machinal devise (computer/laptop), python and acces to internet. 
+This code works probably with all cameras (i hope so), I tested 4 difrent one and I have no trouble with sending data to the cloud.
+
+Code sends present view of conected camera on internet host, in the code the host is 4243 but you can change it however you want.
+To activate the code you need all things from "required".
 
 To acctualy run the script follow simple instruction:
 1. Copy and paste, script from WebCam_Sendhost.py to your device.
