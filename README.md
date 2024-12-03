@@ -5,9 +5,9 @@ To activate the code you need all things from "required".
 
 To acctualy run the script follow simple instruction:
 1. Copy and paste, script from WebCam_Sendhost.py to your device.
-2. Import all the liberians from import.cmd file
+2. Import all the liberians from import file
 3. Save and run your program:
    save program on your device and try running it.
-   there shouldn't be any issues with the code.
+   You may find errors on python before 3.12 and operating system win below 10 (there shouldn't be any errors on linux)
 
-I hope you enyoj itz and it's working, If not you can contact me with any issues and I will try explain them and may fix some errors in the code. I'm looking forward to hear your feed.
+I hope code is working property, if not you can contact me, I'm here ready to help with any issues and I will try explain them and fix errors in the code (if nesesery). I'm looking forward to hear your feed.
