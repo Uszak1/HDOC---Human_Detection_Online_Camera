@@ -16,3 +16,5 @@ You may stand apond more issues with that, than try updating python.
 3. Save and run your program:
    save program on your device and try running it.
    there shouldn't be any issues with the code.
+
+I hope you enyoj itz and it's working, If not you can contact me with any issues and I will try explain them and may fix some errors in the code. I'm looking forward to hear your feed.
