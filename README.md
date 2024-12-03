@@ -1,4 +1,7 @@
-This code works probably with all cameras (i hope so), I tested 4 difrent one and I have no trouble with sending data to the cloud.
+This code doesn't works probably. It is an early development tool.
+
+
+ with all cameras (i hope so), I tested 4 difrent one and I have no trouble with sending data to the cloud.
 
 Code sends present view of conected camera on internet host, in the code the host is 4243 but you can change it however you want.
 To activate the code you need all things from "required".
