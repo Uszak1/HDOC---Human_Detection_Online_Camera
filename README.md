@@ -5,15 +5,7 @@ To activate the code you need all things from "required".
 
 To acctualy run the script follow simple instruction:
 1. Copy and paste, script from WebCam_Sendhost.py to your device.
-2. Import all the liberians with commnad:
-   "pip install flask opencv-python socket"
-   if dosn't work try:
-   "apt get python3 flask"
-   "apt get python3 opencv-python"
-   or:
-   "python3 /m pip install "flask""
-   "python3 /m pip install "opencv-python""
-You may stand apond more issues with that, than try updating python.
+2. Import all the liberians from import.cmd file
 3. Save and run your program:
    save program on your device and try running it.
    there shouldn't be any issues with the code.
