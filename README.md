@@ -1,7 +1,7 @@
 This is Web Cam Sending Script. 
 It works by sending data to cloud on specified host.
 =
-Code is running quite smoothly and with no issues (as for me). Keep in mind that it's an early development tool.
+Code is running quite smoothly and with no issues (as for me). 
 I checked, and code was working with 4 difrent web-cams and I have no trouble with sending data to the cloud.
 I hope code is also working for you.
 =
@@ -19,3 +19,5 @@ To acctualy run the script follow this simple instruction:
 5. Enyoj working camera. 
 
 I hope code is working properly, if not you can contact me, I'm here ready to help with any issues with download or with data sending, you can leave your feed and issues. Thanks for helping me out.
+
+Keep in mind that this is an early development tool.
