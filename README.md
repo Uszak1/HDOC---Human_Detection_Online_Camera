@@ -10,7 +10,7 @@ Code sends view from camera to internet website with ip and host, in the code th
 To activate the code you need everything explained in "required" file.
 
 To acctualy run the script follow this simple instruction:
-1. Copy and paste the script from WebCam_Sendhost.py to your device.
+1. Download the script from WebCam_Sendhost.py to your device.
 2. Import all the liberians from "import" file based on your operating system and python that you're using.
 3. Save and run your program:
    save program on your device and try running it.
