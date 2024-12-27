@@ -6,7 +6,7 @@ app = Flask(__name__)
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-cap.set(3, 640), cap.set(4, 480), cap.set(5, 80)
+cap.set(3, 640), cap.set(4, 480), cap.set(5, 80) #this line set width, hight and FPS of camera
 
 if not cap.isOpened():
     exit("Couldn't open camera.")
@@ -16,7 +16,7 @@ def generate_frames():
         ret, frame = cap.read()
         if not ret:
             break
-        frame = cv2.flip(frame, 1)
+        frame = cv2.flip(frame, 1) # camera rotation (optional)
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
         for i, (x, y, w, h) in enumerate(faces, 1):
@@ -32,4 +32,4 @@ def video_feed():
     return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
     
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=4545)
+    app.run(host="0.0.0.0", port=4545) #ip is recognized automaticly, you can change the port
