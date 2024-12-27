@@ -1,5 +1,6 @@
-This is Web Cam Sending Script with ai human face detection.
+HDOC stands for Human Detection Online Camera!
 =
+Hello before you start reading the rest, quick disclaimer, I've benn working with this project for quite a while and i would love to hear your opinions about it :D
 I checked, and code was working with 4 difrent web-cams and I have no trouble with sending data to the cloud.
 I really hope the code is also working for you.
 
