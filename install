@@ -1,11 +1,12 @@
 Uniwersal instalance
--> pip install flask opencv-python socket
+-> pip install flask opencv-python
 
 Install for Linux/ Ubantu/ RasberryPi:
--> sudo apt-get install python3-flask python3-opencv python3-socket
+-> sudo apt-get install python3-flask python3-opencv
 
 Install for anaconda/ miniconda users:
--> conda install flask opencv-python socket
+-> conda install flask opencv-python
 
 You may have issues with downloading opencv libary, if you do try insted:
 -> python3 -m pip install opencv-python
+-> python3 -m pip install flask
